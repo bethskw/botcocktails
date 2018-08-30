@@ -1,0 +1,9 @@
+
+from textgenrnn import textgenrnn
+
+t = textgenrnn('textgenrnn_weights.hdf5')
+t.train_from_file('cocktails_wiki_input.txt', num_epochs=10);
+t.train_from_file('lowder5.txt', num_epochs=10)
+
+
+
